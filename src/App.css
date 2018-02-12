@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100%;
   background: rgb(245, 191, 189);
+  box-sizing: border-box;
 }
 
 .parent_message_container {
@@ -24,6 +25,8 @@
   width: 96%;
   overflow: scroll;
   padding-left: 24px;
+  padding-top: 12px;
+  
 }
 
 .new_message_container {
@@ -48,13 +51,14 @@
   font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
+  padding-left: 24px;
 }
 
 .message_text span {
   padding-top: 11px;
   padding-left: 24px;
-  border-bottom: 1px solid black;
   width: 32%;
+  box-sizing: border-box;
 }
 
 .header {
@@ -75,4 +79,15 @@
   position: absolute;
   right: 68px;
   top: 14px;
+}
+
+.message_container {
+  margin-bottom: 16px;
+  box-shadow: 1px rgba(22 23 25 1);
+}
+
+.edit_message {
+  height: 2em;
+  width: 30%;
+  border-radius: 20px;
 }
